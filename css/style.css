@@ -1,0 +1,21 @@
+
+h1{
+	text-align: center;
+}
+
+.main{
+	margin-top: 10%;
+	margin-left: 35%;
+}
+#modal-login{
+	background-color: #33B5E5;
+	/*background-color: #FF33B5E5;*/
+}
+
+#mostrarPersona, #cargarDatos{
+	display: none;
+}
+label, #bold{
+	font-weight: bold;
+	color: black;
+}

@@ -1,0 +1,54 @@
+<header id="main-header"><!--inicio del menu -->
+<nav class="navbar navbar-inverse" role="navigation">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+				<span class="sr-only">Navegación móvil</span>
+				<span class="icon-bar"></span>
+    			<span class="icon-bar"></span>
+    			<span class="icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">Home</a>
+		</div>
+		<div class="collapse navbar-collapse" id="menu">
+			<ul class="nav navbar-nav navbar-left">
+				<li class="dropdown"><!-- docentes -->
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Docentes <span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="#docente" data-toggle="modal">Gestionar</a></li>
+		          </ul>
+		        </li><!-- fin docentes -->
+		        <li class="dropdown"><!-- estudiantes -->
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Estudiantes <span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="#estudiante" data-toggle="modal">Gestionar</a></li>
+		          </ul>
+		        </li><!-- fin estudiantes -->
+		        <li class="dropdown"><!-- configuracion -->
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Configuración <span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="#carrera" data-toggle="modal">Carrera</a></li>
+		            <li><a href="#semestre" data-toggle="modal">Semestre</a></li>
+		            <li class="divider"></li>
+		            <li><a href="#materia" data-toggle="modal">Materia</a></li>
+		            <li><a href="#pensum" data-toggle="modal">Pensum</a></li>
+		            <li><a href="#asignacion" data-toggle="modal">Asignación</a></li>
+		            <li><a href="#matricula" data-toggle="modal">Matricula</a></li>
+		          </ul>
+		        </li><!-- fin configuracion -->
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown"><!-- usuario -->
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo $usuario; ?>&nbsp;&nbsp;&nbsp;<i class="fa fa-user fa-2x"></i><span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="inc/log_out.php">Log out</a></li>
+		          </ul>
+		        </li><!-- fin usuario -->
+
+				<!---<li><span class="sr-only">Sign in</span></li>
+				<li><button type="button" data-toggle="modal" data-target="#signing" class="btn btn-primary"><?php echo $usuario; ?>&nbsp;&nbsp;&nbsp;<i class="fa fa-user fa-2x"></i></button></li>-->
+			</ul>
+		</div>
+	</div>
+</nav>
+</header><!--fin del menu -->

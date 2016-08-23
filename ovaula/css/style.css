@@ -1,0 +1,37 @@
+#modal-bienvenida > .modal{
+	width: 90%;
+	max-height: 80%;
+	height: 80%;
+}
+.curso > .modal{
+	width: 50%;
+	max-height: 50%;
+	height: 50%;
+}
+.materia > .modal{
+	width: 40%;
+	max-height: 30%;
+	height: 30%;
+}
+.docente > .modal, #estudiante > .modal, #periodo > .modal{
+	width: 50%;
+	max-height: 100%;
+	height: 100%;
+}
+.examen > .modal{
+	width: 50%;
+	max-height: 100%;
+	height: 100%;
+}
+#canvas{
+	width: 300px;
+	height: 300px;
+	background-color: #62CDFA;
+}
+.rotated {
+    -webkit-transform: rotate(45deg);  /* Chrome, Safari 3.1+ */
+    -moz-transform: rotate(45deg);  /* Firefox 3.5-15 */
+    -ms-transform: rotate(45deg);  /* IE 9 */
+    -o-transform: rotate(45deg);  /* Opera 10.50-12.00 */
+    transform: rotate(45deg);  /* Firefox 16+, IE 10+, Opera 12.10+ */
+}
